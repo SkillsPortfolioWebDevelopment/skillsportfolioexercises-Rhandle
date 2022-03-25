@@ -1,0 +1,23 @@
+﻿body
+{
+    text-align:center;
+}
+.sep{
+    margin: 30px;
+    padding: 20px;
+}
+#A{
+    filter: brightness(150%);
+}
+#B{
+    filter: contrast(200%);
+}
+#C{
+    filter: sepia(50%);
+}
+.imgtxt {
+    text-align: center;
+}
+.imgtxt img {
+        margin: 0 auto;
+    }

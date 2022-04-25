@@ -9,12 +9,13 @@ function moveShape(move) {
 };
 var block = document.querySelector('.block');
 block.addEventListener('click', function (e) {
-    //Moves html element 'block' after clicking
+    //Moves html element 'block' and adds a point to the score after clicking 
     moveShape(e.target);
     score++
     document.getElementById("score").innerHTML = Math.floor(score);
 });
 var timer = setInterval(function () {
+    //Set timer for 30 seconds until the game ends
     if (time != 0) {
         time--;
         document.getElementById("timer").innerHTML = Math.floor(time / 200);

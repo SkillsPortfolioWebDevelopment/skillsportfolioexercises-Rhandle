@@ -1,0 +1,48 @@
+﻿body {
+    background-image: url(./fancybg.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header {
+    width: 100%;
+    background: linear-gradient(#FFD700, #ecddab);
+    border: 3px solid black;
+    color: black;
+    font: 600 20px arial;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.btn{
+    width: 25%;
+    background-color: gold;
+    border-radius: 5px;
+    border: 3px solid black;
+    color: black;
+    margin: 2rem;
+    padding: 3rem;
+    font: 600 20px arial;
+    cursor: pointer;
+    transition: ease-in-out .5s;
+}
+.btn:hover{
+    background-color: lightcoral;
+    color: white;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:active{
+    background-color: orangered;
+    transform: scale(0.8);
+    transform: translateY(2px);
+    box-shadow: 0 0 10px gold;
+}
